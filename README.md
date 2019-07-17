@@ -8,11 +8,11 @@ This project has two classes, Robot and World. The World class encapsulates a si
   * A robot can try to move a single space in any direction (holonomic), but if that space is blocked the robot does not move. Robot receives whether the move was successful or no
 * World continuously displays the world (obstacles plus robots) to the terminal using ASCII. Below is example output with two robots A and B
 
-1111111\n
-1A00001\n
-100B001
-1001101
-1001101
-1000001
-1111111
+1111111  
+1A00001  
+100B001  
+1001101  
+1001101  
+1000001  
+1111111  
 
