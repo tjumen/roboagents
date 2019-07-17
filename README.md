@@ -1,5 +1,5 @@
 # Roboagents
-This program will simulate autonomous robots running around a 2D world. 
+This simulates autonomous robots running around a 2D world. 
 
 This project has two classes, Robot and World. The World class encapsulates a simple 2D world.
 * The world map is represented by a 2D data structure of your choice with each coordinate either blocked or unobstructed. The map is a rectangle of arbitrary size that is blocked around the entire border and has arbitrary internal coordinates blocked. We do not handle map configuration edge cases.
