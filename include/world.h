@@ -14,11 +14,10 @@ class Robot;
 class Location;
 
 /*
- * I didn't change the data structure for representing the world due to time constaints.
- *
- * It can definitely be improved. The map can be represented with vector of vectors or chars,
+ * The map is represented as a simple 2D array of char. 
+ * Alternatively, it can be represented with vector of vectors or chars,
  * as in std::vector<std::vector<char> > map.
- * Alternatively, we can use OpenCV cv::Mat object of type CV_8UC1 to store the world map.
+ * Another option is to use OpenCV cv::Mat object of type CV_8UC1 to store the world map.
 */
 class World {
 public:
